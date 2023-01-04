@@ -1,0 +1,4 @@
+Knuth Morris Pratt (KMP) is an algorithm, which checks the characters from left to right. 
+When a pattern has a sub-pattern which appears more than one in the sub-pattern, 
+it uses that property to improve the time complexity, also for in the worst case.
+The time complexity of KMP is O(n) which is achieved by avoiding comparison with an element of 'S' that have previously been involved in comparison with some element of the pattern 'p' to be matched. i.e., backtracking on the string 'S' never occurs
